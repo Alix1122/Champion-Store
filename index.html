@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CHAMPION Store</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+            integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header>
+            <div class="container">
+                <a href="./index.html" class="logo"
+                    ><img src="./img/logo.png" alt=""
+                /></a>
+                <div class="nav-links">
+                    <nav id="navbar" class="nav">
+                        <li>
+                            <a class="alink active" href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="alink" href="./shop.html">Shop All</a>
+                        </li>
+                        <li><a class="alink" href="./shoes.html">Shoes</a></li>
+                        <li>
+                            <a class="alink" href="./accessories.html"
+                                >Accessories</a
+                            >
+                        </li>
+                        <li><a class="alink" href="#about">About</a></li>
+                        <li><a class="alink" href="#contact">Contact</a></li>
+                        <i id="close" class="ri-close-fill"></i>
+                    </nav>
+                    <div class="mobile">
+                        <a href="#" class="bag"
+                            ><i class="ri-shopping-bag-line"></i
+                        ></a>
+                        <i id="bar" class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Home Start -->
+        <section id="home" class="home">
+            <img src="./img/bg-home.jpg" alt="" />
+            <div class="container">
+                <h1>CHAMPION HOOPS🏀</h1>
+                <h2>GEAR UP LIKE THE PROS</h2>
+                <a href="./shop.html" class="animated-button">
+                    <span
+                        >Explore Collection
+                        <i class="ri-arrow-right-long-line"></i
+                    ></span>
+                    <span></span>
+                </a>
+            </div>
+        </section>
+        <!-- Home End -->
+
+        <!-- About Start -->
+        <section id="about" class="about">
+            <div class="container">
+                <h1>About Our Brand</h1>
+                <p>
+                    <span
+                        >CHAMPION
+                        <img
+                            src="./img/champion.jpg"
+                            class="preview-image"
+                            alt=""
+                    /></span>
+                    Store is an online store selling sports & outdoor equipment
+                    for amateurs <br />
+                    and professionals.🏀🏆🇲🇦
+                </p>
+            </div>
+        </section>
+        <!-- About End -->
+
+        <!-- Brands Start -->
+        <section class="brands">
+            <div class="container">
+                <img src="./img/logos/Nike-png.avif" />
+                <img src="./img/logos/kyrie-logo.webp" />
+                <img src="./img/logo.png" />
+                <img src="./img/logos/adidas.avif" />
+                <img src="./img/logos/Kobe-logo.avif" />
+            </div>
+        </section>
+        <!-- Brands End -->
+
+        <!-- featured Start -->
+        <section class="featured products">
+            <div class="container">
+                <div class="product1">
+                    <h2>Featured Products</h2>
+                    <div class="pro-container">
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=1'
+                            "
+                        >
+                            <img src="./img/shoes/kyrie-3.webp" alt="" />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Kyrie 3 | Aqua</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>850.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=21'
+                            "
+                        >
+                            <img src="./img/accessoires/compression.webp" />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Nike Compression Shirt</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>220.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=19'
+                            "
+                        >
+                            <img
+                                src="./img/accessoires/bag-pro-elite.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Nike Hoops Elite Bag Pro</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>499.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=4'
+                            "
+                        >
+                            <img
+                                src="./img/shoes/anta-kai-5-magic.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Anta</span>
+                                <h4>Anta Kai 5 | Magic</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>850.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=23'
+                            "
+                        >
+                            <img src="./img/accessoires/crocs.webp" alt="" />
+                            <div class="description">
+                                <span>Crocs</span>
+                                <h4>Crocs Salehe Bembury</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>499.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=20'
+                            "
+                        >
+                            <img
+                                src="./img/accessoires/basketball.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Wilson</span>
+                                <h4>Basketball Wilson</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>450.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=7'
+                            "
+                        >
+                            <img src="./img/shoes/kobe-6.webp" alt="" />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Kobe 6 | Protro</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>1200.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=25'
+                            "
+                        >
+                            <img
+                                src="./img/accessoires/short-kyrie.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Basketball Short</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>280.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <a href="./shop.html" class="more">See More</a>
+                </div>
+            </div>
+        </section>
+        <!-- featured End -->
+
+        <!-- Brands Start -->
+        <section class="brands">
+            <div class="container">
+                <img class="img-logo" src="./img/logos/jordan-logo.webp" />
+                <img class="img-logo" src="./img/logos/KD-logo.avif" />
+                <img class="img-logo" src="./img/logo.png" />
+                <img class="img-logo" src="./img/logos/Curry-logo.avif" />
+                <img class="img-logo" src="./img/logos/lebjames-logo.webp" />
+            </div>
+        </section>
+        <!-- Brands End -->
+
+        <!-- Collection End -->
+        <section class="new-coll products">
+            <div class="container">
+                <div class="product1">
+                    <h2>New Collection</h2>
+                    <div class="pro-container">
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=9'
+                            "
+                        >
+                            <img src="./img/shoes/kyrie-7.webp" alt="" />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Kyrie 7 | Pale Ivory</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>1200.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=10'
+                            "
+                        >
+                            <img src="./img/shoes/ja-3.webp" alt="" />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Ja 3 | Ny vs Ny</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>1400.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=17'
+                            "
+                        >
+                            <img
+                                src="./img/accessoires/arms-sleeves.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Nike X NBA Arms Sleeves</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>200.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=18'
+                            "
+                        >
+                            <img
+                                src="./img/accessoires/knee-sleeves.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Nike X NBA Knee Sleeves</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>250.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=6'
+                            "
+                        >
+                            <img src="./img/shoes/young-1.webp" alt="" />
+                            <div class="description">
+                                <span>Adidas</span>
+                                <h4>Trae Young 1</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>900.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=28'
+                            "
+                        >
+                            <img
+                                src="./img/accessoires/undershirt.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Undershirt Compression</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>250.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = '/details.html?id=26'
+                            "
+                        >
+                            <img
+                                src="./img/accessoires/socks-elite.webp"
+                                alt=""
+                            />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Elite Basketball Socks</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>100.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+
+                        <div
+                            class="pro"
+                            onclick="
+                                window.location.href = './details.html?id=16'
+                            "
+                        >
+                            <img src="./img/shoes/kyrie-5-low.webp" />
+                            <div class="description">
+                                <span>Nike</span>
+                                <h4>Kyrie 5 Low</h4>
+                                <div class="star">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <h3>1300.00 dhs</h3>
+                            </div>
+                            <a href="#"
+                                ><i class="ri-shopping-cart-line cart"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <a href="./shop.html" class="more">See More</a>
+                </div>
+            </div>
+        </section>
+        <!-- Collection End -->
+
+        <!-- Shipping Start -->
+        <section class="shipping">
+            <div class="container">
+                <div class="item">
+                    <i class="ri-wallet-line"></i>
+                    <h4>Cash On Delivery</h4>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h4>Fast Shipping</h4>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-face-grin-stars"></i>
+                    <h4>Best Quality</h4>
+                </div>
+            </div>
+        </section>
+        <!-- Shipping End -->
+
+        <!-- newsletter Start -->
+        <section class="newsletter">
+            <img src="./img/newsletter.jpg" alt="" />
+            <div class="container">
+                <div class="newstext">
+                    <h4>Subscribe</h4>
+                    <p>Subscribe for updates and special offers</p>
+                </div>
+                <div class="form">
+                    <input required type="text" placeholder="Your E-mail" />
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </section>
+        <!-- newsletter End -->
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="cols">
+                    <div class="col">
+                        <img src="./img/logo.png" alt="" />
+                        <h4>Follow Us</h4>
+                        <div class="social">
+                            <i class="ri-facebook-line"></i>
+                            <i class="ri-twitter-x-line"></i>
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-tiktok-fill"></i>
+                            <i class="ri-youtube-fill"></i>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <h4>About</h4>
+                        <a href="#">About us</a>
+                        <a href="#">Delivery Information</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+
+                    <div class="col">
+                        <h4>My Account</h4>
+                        <a href="#">Sign In</a>
+                        <a href="#">View cart</a>
+                        <a href="#">Track My Order</a>
+                        <a href="#">Help</a>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>© 2026, CHAMPION Store | E-commerce Store</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>

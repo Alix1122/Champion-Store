@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "brand": "Nike",
+        "name": "Kyrie 3",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 850.0,
+        "MainImage": "/img/shoes/kyrie-3.webp",
+        "images": [
+            "/img/shoes/kyrie-3.webp",
+            "/img/shoes/kyrie-3-2.webp",
+            "/img/shoes/kyrie-3-3.webp"
+        ],
+        "description":
+            "The Kyrie 3 Men's Basketball Shoe combines unparalleled grip, soft support and high-performance cushioning to enable incredibly precise changes of direction, adapted to rhythmic and fluid play."
+    },
+    {
+        "id": 2,
+        "brand": "Nike",
+        "name": "Giannis Immortality 4",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 800.0,
+        "MainImage": "/img/shoes/giannis-4.webp",
+        "images": [
+            "/img/shoes/giannis-4.webp",
+            "/img/shoes/giannis-4-2.webp",
+            "/img/shoes/giannis-4-3.webp"
+        ],
+        "description":
+            "The Nike Kyrie 2, designed by Leo Chang and released in 2015, is a basketball shoe tailored for elite agility, featuring a unique rounded outsole for quick"
+    },
+    {
+        "id": 3,
+        "brand": "Nike",
+        "name": "PG 6",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1000.0,
+        "MainImage": "/img/shoes/pg-6.webp",
+        "images": [
+            "/img/shoes/pg-6.webp",
+            "/img/shoes/pg-6-2.webp",
+            "/img/shoes/pg-6-3.webp"
+        ],
+        "description":
+            "The Nike PG 6 is Paul George's sixth signature shoe, characterized by vibrant color panels and wavy lines. The lightweight mesh upper sits atop React foam cushioning for a responsive and bouncy feel."
+    },
+    {
+        "id": 4,
+        "brand": "Anta",
+        "name": "Kai Shock Wave 5",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 850.00,
+        "MainImage": "/img/shoes/anta-kai-5-magic.webp",
+        "images": [
+            "/img/shoes/anta-kai-5-magic.webp",
+            "/img/shoes/anta-kai-5.webp",
+            "/img/shoes/anta-kai-5-3.webp"
+        ],
+        "description":
+            "The ANTA Shock Wave 5 is a high-performance basketball shoe designed for agility and speed, with a low-cut, durable design, ideal for fast guards and outdoor play."
+    },
+    {
+        "id": 5,
+        "brand": "Nike",
+        "name": "Ja 1",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1200.00,
+        "MainImage": "/img/shoes/ja-1.webp",
+        "images": [
+            "/img/shoes/ja-1.webp",
+            "/img/shoes/ja-1-2.webp",
+            "/img/shoes/ja-1-3.webp"
+        ],
+        "description":
+            "The Nike Ja 1 'Day One' represents the first colorway of Ja Morant's signature shoe. The sleek silhouette features a ballistic mesh upper in a pastel shade of blue, contrasted by a wraparound TPU Swoosh in a gradient mix of yellow and pink."
+    },
+    {
+        "id": 6,
+        "brand": "Adidas",
+        "name": "Trae Young 1",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 900.00,
+        "MainImage": "/img/shoes/young-1.webp",
+        "images": [
+            "/img/shoes/young-1.webp",
+            "/img/shoes/young-1-2.webp",
+            "/img/shoes/young-1-3.webp"
+        ],
+        "description":
+            "Discover the luxury and cushioning of the Trae Young 1 shoe. Made with cutting-edge technology, it combines a highly flexible foam insole for optimal shock absorption and lasting protection."
+    },
+    {
+        "id": 7,
+        "brand": "Nike",
+        "name": "Kobe 6",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1200.00,
+        "MainImage": "/img/shoes/kobe-6.webp",
+        "images": [
+            "/img/shoes/kobe-6.webp",
+            "/img/shoes/kobe-6-2.webp",
+            "/img/shoes/kobe-6-3.webp"
+        ],
+        "description":
+            "Designed by Eric Avar, Nike launched the Zoom Kobe 6 in 2010, combining a textured, snakeskin-inspired upper with a memory foam insole, a Phylon-injected midsole, and Zoom Air units in the heel and forefoot. Today, this silhouette is considered one of Kobe Bryant's greatest signature shoes."
+    },
+    {
+        "id": 8,
+        "brand": "Nike",
+        "name": "Giannis Freak 4",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 850.00,
+        "MainImage": "/img/shoes/giannis-freak-4.webp",
+        "images": [
+            "/img/shoes/giannis-freak-4.webp",
+            "/img/shoes/giannis-freak-4-2.webp",
+            "/img/shoes/giannis-freak-4-3.webp"
+        ],
+        "description":
+            "Giannis is a relentless force of stamina and skill, constantly attacking his opponents for four quarters or more. The cutting-edge design of his latest signature shoe helps propel you down the court with a lightweight design that moves with you. It can handle quick changes of direction on both ends of the court, providing lateral stability and multidirectional traction as you drive to the basket. The colors make…"
+    },
+    {
+        "id": 9,
+        "brand": "Nike",
+        "name": "Kyrie 7",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1200.00,
+        "MainImage": "/img/shoes/kyrie-7.webp",
+        "images": [
+            "/img/shoes/kyrie-7.webp",
+            "/img/shoes/kyrie-7-2.webp",
+            "/img/shoes/kyrie-7-3.webp"
+        ],
+        "description":
+            "Kyrie Irving's seventh signature basketball shoe is designed to maximize speed and quick movements. The lightweight mesh upper is supported by TPU 'fingers' in the forefoot for enhanced lockdown, while the Phylon midsole provides maximum flexibility. Check out the Nike Kyrie 7, available in various colorways."
+    },
+    {
+        "id": 10,
+        "brand": "Nike",
+        "name": "Ja 3",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1400.00,
+        "MainImage": "/img/shoes/ja-3.webp",
+        "images": [
+            "/img/shoes/ja-3.webp",
+            "/img/shoes/ja-3-2.webp",
+            "/img/shoes/ja-3-3.webp"
+        ],
+        "description":
+            "The Nike Ja 3 is Ja Morant's third signature basketball shoe. It's known for its lightweight feel, comfort, and innovative full-length Hybrid ZoomX foam that delivers explosive energy return, a durable canvas/textile upper for enhanced support, and a unique traction pattern (often adorned with repeated Ja logos) for superior grip."
+    },
+    {
+        "id": 11,
+        "brand": "Under Armour",
+        "name": "Curry 10",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1000.00,
+        "MainImage": "/img/shoes/curry-10.webp",
+        "images": [
+            "/img/shoes/curry-10.webp",
+            "/img/shoes/curry-10-2.webp",
+            "/img/shoes/curry-10-3.webp"
+        ],
+        "description":
+            "Change direction without slowing down. Rubber-free UA Flow cushioning makes these shoes lightweight and extremely grippy. The UA Warp upper acts like a mini seatbelt that secures your foot, giving you more control so you can stop and start again in no time."
+    },
+    {
+        "id": 12,
+        "brand": "Nike",
+        "name": "Kyrie 2",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 800.00,
+        "MainImage": "/img/shoes/kyrie-2.webp",
+        "images": [
+            "/img/shoes/kyrie-2.webp",
+            "/img/shoes/kyrie-2-2.webp",
+            "/img/shoes/kyrie-2-3.webp"
+        ],
+        "description":
+            "The Nike Kyrie 2, released in December 2015, is a basketball shoe designed for quick, agile guards, featuring a unique, rounded outsole for rapid lateral transitions and a midfoot strap for lockdown stability."
+    },
+    {
+        "id": 13,
+        "brand": "Nike",
+        "name": "Kobe 8",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1200.00,
+        "MainImage": "/img/shoes/kobe-8.webp",
+        "images": [
+            "/img/shoes/kobe-8.webp",
+            "/img/shoes/kobe-8-2.webp",
+            "/img/shoes/kobe-8-3.webp"
+        ],
+        "description":
+            "Nike's ''What The'' series on the iconic Nike Kobe 8 silhouette brought one of the most recognizable models to the court in 2013. Combining nearly 30 previous colorways of the Nike Kobe 8, the What The Kobe includes the colors and designs of some of the most sought-after models."
+    },
+    {
+        "id": 14,
+        "brand": "Nike",
+        "name": "Kyrie Infinity",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1300.00,
+        "MainImage": "/img/shoes/kyrie-infinity.webp",
+        "images": [
+            "/img/shoes/kyrie-infinity.webp",
+            "/img/shoes/kyrie-infinity-2.webp",
+            "/img/shoes/kyrie-infinity-3.webp"
+        ],
+        "description":
+            "The Nike Kyrie Infinity is Kyrie Irving's eighth signature shoe. Featuring dynamic internal bands for a sock-like fit, synthetic leather overlays adorn the micro-engineered mesh upper. The midsole incorporates a Zoom Strobel unit in the forefoot for enhanced responsiveness."
+    },
+    {
+        "id": 15,
+        "brand": "Nike",
+        "name": "Ja 2",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1300.00,
+        "MainImage": "/img/shoes/ja-2.webp",
+        "images": [
+            "/img/shoes/ja-2.webp",
+            "/img/shoes/ja-2-2.webp",
+            "/img/shoes/ja-2-3.webp"
+        ],
+        "description":
+            "The Nike Ja 2 is Ja Morant's second signature shoe, designed to support the evolution of his explosive game. More stable and even more efficient, it incorporates Zoom Air cushioning in the forefoot for optimal energy return. The redesigned upper offers improved support while remaining lightweight, ideal for fast and aggressive players. Its bold design and striking colors reflect Ja's intensity and creativity on the court."
+    },
+    {
+        "id": 16,
+        "brand": "Nike",
+        "name": "Kyrie 5 Low",
+        "sizes": ["40", "41", "42", "43", "44", "45"],
+        "price": 1300.00,
+        "MainImage": "/img/shoes/kyrie-5-low.webp",
+        "images": [
+            "/img/shoes/kyrie-5-low.webp",
+            "/img/shoes/kyrie-5-low-2.webp",
+            "/img/shoes/kyrie-5-low-3.webp"
+        ],
+        "description":
+            "Kyrie 5 Low Designed for fast and clever play, this shoe allows players who utilize their speed and multidirectional ability to maintain control while taking advantage of the separation they create."
+    },
+    {
+        "id": 17,
+        "brand": "Nike",
+        "name": "NBA Arms Sleeves",
+        "sizes": ["S", "M", "L", "XL"],
+        "price": 200.00,
+        "MainImage": "/img/accessoires/arms-sleeves.webp",
+        "images": [
+            "/img/accessoires/arms-sleeves.webp",
+            "/img/accessoires/arms-sleeves-2.webp",
+            "/img/accessoires/arms-sleeves-3.webp"
+        ],
+        "description":
+            "The sleeves designed by Nike and the NBA offer a perfect blend of adaptability and style. Made with breathable fabrics that allow for comfortable and unrestricted movement, these Nike x NBA sleeves are ideal for training and athletic performance."
+    },
+    {
+        "id": 18,
+        "brand": "Nike",
+        "name": "NBA Knee Sleeves",
+        "sizes": ["S", "M", "L", "XL"],
+        "price": 250.00,
+        "MainImage": "/img/accessoires/knee-sleeves.webp",
+        "description":
+            "Benefits and features: Enhances your performance by providing exceptional comfort and protection. Protects knees and lower legs from injuries caused by impacts. Accelerates the body's natural cooling and drying process. Provides gentle compression to reduce the risk of cramps."
+    },
+    {
+        "id": 19,
+        "brand": "Nike",
+        "name": "Elite Bag Pro",
+        "price": 499.00,
+        "MainImage": "/img/accessoires/bag-pro-elite.webp",
+        "images": [
+            "/img/accessoires/bag-pro-elite.webp",
+            "/img/accessoires/bag-pro-elite-2.webp",
+            "/img/accessoires/bag-pro-elite-3.webp"
+        ],
+        "description":
+            "For basketball players, elite represents the very best: that's exactly what the Nike Elite Pro backpack offers. The top opening allows you to access your gear when the bag is lying flat, just like a gym bag."
+    },
+    {
+        "id": 20,
+        "brand": "Wilson",
+        "name": "Basketball",
+        "price": 350.00,
+        "MainImage": "/img/accessoires/basketball.webp",
+        "description":
+            "Elevate your game with the Wilson basketball, renowned for its exceptional quality and superior performance. Designed to offer excellent control and grip, this ball is perfect for players of all skill levels, whether indoors or outdoors."
+    },
+    {
+        "id": 21,
+        "brand": "Nike",
+        "name": "Compression Shirt",
+        "sizes": ["S", "M", "L", "XL"],
+        "price": 200.00,
+        "MainImage": "/img/accessoires/compression.webp",
+        "images": [
+            "/img/accessoires/compression.webp",
+            "/img/accessoires/compression-2.webp"
+        ],
+        "description":
+            "Offering a close fit and breathable innovations, the Nike compression shirt combines comfort and freedom of movement. Made with quality materials, it keeps your body dry and comfortable during exercise."
+    },
+    {
+        "id": 22,
+        "brand": "Nike",
+        "name": "One Leg Compression",
+        "sizes": ["S", "M", "L", "XL"],
+        "price": 200.00,
+        "MainImage": "/img/accessoires/one-leg.webp",
+        "images": [
+            "/img/accessoires/one-leg.webp",
+            "/img/accessoires/one-leg-2.webp"
+        ],
+        "description":
+            "One Leg Compression is designed to enhance basketball player performance. It provides targeted and sustained compression for leg muscles and helps relieve fatigue and performance-related stress. This leg-specific compression will help improve players' power and speed."
+    },
+    {
+        "id": 23,
+        "brand": "Crocs",
+        "name": "Crocs Salehe Bembury",
+        "sizes": ["41", "42", "43", "44", "45"],
+        "price": 500.00,
+        "MainImage": "/img/accessoires/crocs.webp",
+        "description":
+            "The Crocs Pollex Salehe Bembury Stratus features an off-white, exoskeletal look with dramatic concave ridges, resembling fingerprints, throughout its foam construction. While this model doesn't have as many ventilation holes as traditional Crocs clogs, the remaining holes are strategically placed in high-heat areas of the foot for enhanced breathability."
+    },
+    {
+        "id": 24,
+        "brand": "Nike",
+        "name": "Head Band",
+        "price": 100.00,
+        "MainImage": "/img/accessoires/headband.webp",
+        "description":
+            "The Nike Swoosh headband is made of soft polyester fabric, providing protection against hair and sweat without compromising comfort and breathability."
+    },
+    {
+        "id": 25,
+        "brand": "Nike",
+        "name": "Basketball Short",
+        "price": 250.00,
+        "MainImage": "/img/accessoires/short-kyrie.webp",
+        "images": [
+            "/img/accessoires/short-kyrie.webp",
+            "/img/accessoires/short-kyrie-2.webp",
+            "/img/accessoires/short-kyrie-3.webp"
+        ],
+        "description":
+            "American basketball shorts with built-in cycling shorts are an ingenious combination of the style of traditional basketball shorts and the comfort of cycling shorts. These versatile shorts offer both maximum freedom of movement on the basketball court and the necessary support for cycling activities."
+    },
+    {
+        "id": 26,
+        "brand": "Nike",
+        "name": "Elite Socks",
+        "price": 100.00,
+        "MainImage": "/img/accessoires/socks-elite.webp",
+        "images": [
+            "/img/accessoires/socks-elite.webp",
+            "/img/accessoires/socks-elite-2.webp"
+        ],
+        "description":
+            "Nike Elite Basketball Socks offer superior support and stability for passionate and elite players."
+    },
+    {
+        "id": 27,
+        "brand": "Nike",
+        "name": "NBA Socks",
+        "price": 100.00,
+        "MainImage": "/img/accessoires/socks.webp",
+        "images": [
+            "/img/accessoires/socks.webp",
+            "/img/accessoires/socks-2.webp"
+        ],
+        "description":
+            "Nike's cutaway sock collection in collaboration with the NBA is a perfect fusion of style, comfort, and performance."
+    },
+    {
+        "id": 28,
+        "brand": "Nike",
+        "name": "UnderShirt",
+        "price": 250.00,
+        "MainImage": "/img/accessoires/undershirt.webp",
+        "description":
+            "The Nike X NBA Compression Undershirt is a compression undershirt designed for training. It provides a precise, ergonomic fit and enhanced support for optimal performance."
+    }
+]
