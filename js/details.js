@@ -2,7 +2,7 @@
 // get datas from products.json
 let products = null;
 
-fetch("js/products.json")
+fetch("/products.json")
     .then((response) => response.json())
     .then((data) => {
         products = data;
